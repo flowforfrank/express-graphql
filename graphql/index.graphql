@@ -1,0 +1,10 @@
+#import './article.graphql'
+#import './category.graphql'
+
+type Query {
+    """Get a list of articles"""
+    articles(categoryId: Int): [Article]
+    article(id: Int!): Article
+    categories: [Category]
+    category(id: Int!): Category
+}

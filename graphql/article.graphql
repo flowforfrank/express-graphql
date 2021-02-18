@@ -1,0 +1,6 @@
+type Article {
+    id: Int
+    title: String
+    category: Int
+    categoryName: String
+}
